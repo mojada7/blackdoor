@@ -2,7 +2,7 @@ import React from 'react'
 
 function Slogan() {
   return (
-    <div className=' w-[60%] text-center overflow-clip'>
+    <div className='w-[90%] lg:w-[60%] text-center overflow-clip'>
         <div className='mb-2'>مرجع آگهی ایران</div>
         <div className='mb-2 text-xs lg:text-sm'>
             مثل آب خوردن تو متاورس چیز میزاتو بفروش و واسه بیزینست تبلیغ کن
