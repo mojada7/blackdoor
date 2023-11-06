@@ -5,12 +5,12 @@ import ShortcutIcon from '../shortcutIcon'
 function ShortcutContainer() {
   return (
     <div className='w-full border-b-2 border-gray'>
-      <CenterFlex>
+      <div className='flex justify-between'>
           <ShortcutIcon>ثبت آگهی</ShortcutIcon>
           <ShortcutIcon>بازار اصلی</ShortcutIcon>
           <ShortcutIcon>بگرد دنبالش</ShortcutIcon>
           <ShortcutIcon>درباره ی اینجا</ShortcutIcon>
-      </CenterFlex>
+      </div>
     </div>
 
   )

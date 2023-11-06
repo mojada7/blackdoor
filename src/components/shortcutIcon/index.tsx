@@ -2,7 +2,7 @@ import React from 'react'
 
 function ShortcutIcon({children} : {children : React.ReactNode}) {
   return (
-    <div className='w-[20%] border-solid text-center text-xs md:text-base pb-2'>{children}</div>
+    <div className='w-[20%] border-solid text-center text-xs md:text-sm text-gray-500 pb-2 hover:text-blue-700 hover:cursor-pointer'>{children}</div>
   )
 }
 
