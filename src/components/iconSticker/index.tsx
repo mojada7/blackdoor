@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
 
-function IconSticker() {
+function IconSticker(src: any , alt : string) {
   return (
     <div>
-        <Image src={'#'} fill alt={'#'} />
+        <Image src={src} fill alt={alt} />
     </div>
   )
 }
