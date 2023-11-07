@@ -11,15 +11,15 @@ function CologoContainer() {
     <div className='w-[60%] md:w-[40%] lg:w-[20%] pt-4 opacity-70'>
         <CenterFlex>
             <CenterFlexCol>
-                <Image className='md:scale-125 lg:scale-150' src={pic1} alt='' width={30}/>
+                <Image className='md:scale-75 scale-50' src={pic1} alt='' width={50}/>
                 <div className='mt-2 md:mt-3 text-xs md:text-sm'>سوسیالیست</div>
             </CenterFlexCol>
             <CenterFlexCol>
-                <Image className='md:scale-125 lg:scale-150' src={pic2} alt='' width={30}/>
+                <Image className='md:scale-75 scale-50' src={pic2} alt='' width={50}/>
                 <div className='mt-2 md:mt-3 text-xs md:text-sm'>لبه تکنولوژی</div>
             </CenterFlexCol>
             <CenterFlexCol>
-                <Image className='md:scale-125 lg:scale-150' src={pic3} alt='' width={30}/>
+                <Image className='md:scale-75 scale-50' src={pic3} alt='' width={50}/>
                 <div className='mt-2 md:mt-3 text-xs md:text-sm'>شفاف</div>
             </CenterFlexCol>
         </CenterFlex>
