@@ -11,16 +11,16 @@ function CologoContainer() {
     <div className='w-[60%] md:w-[40%] lg:w-[20%] pt-4 opacity-70'>
         <CenterFlex>
             <CenterFlexCol>
-                <Image className='md:scale-75 scale-50' src={pic1} alt='' width={50}/>
-                <div className='mt-2 md:mt-3 text-xs md:text-sm'>سوسیالیست</div>
+                <Image className='lg:scale-100 md:scale-75 scale-50' src={pic1} alt='' width={40}/>
+                <div className='md:mt-3 lg:mt-1 text-[8px] md:text-xs'>سوسیالیست</div>
             </CenterFlexCol>
             <CenterFlexCol>
-                <Image className='md:scale-75 scale-50' src={pic2} alt='' width={50}/>
-                <div className='mt-2 md:mt-3 text-xs md:text-sm'>لبه تکنولوژی</div>
+                <Image className='lg:scale-100 md:scale-75 scale-50' src={pic2} alt='' width={40}/>
+                <div className='md:mt-3 lg:mt-1 text-[8px] md:text-xs'>لبه تکنولوژی</div>
             </CenterFlexCol>
             <CenterFlexCol>
-                <Image className='md:scale-75 scale-50' src={pic3} alt='' width={50}/>
-                <div className='mt-2 md:mt-3 text-xs md:text-sm'>شفاف</div>
+                <Image className='lg:scale-100 md:scale-75 scale-50' src={pic3} alt='' width={40}/>
+                <div className='md:mt-3 lg:mt-1 text-[8px] md:text-xs'>شفاف</div>
             </CenterFlexCol>
         </CenterFlex>
     </div>
