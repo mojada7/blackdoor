@@ -1,23 +1,15 @@
 import React from 'react'
+import logo from '../../../public/icon/logo.png'
 
 import CenterFlexCol from '../centerFlexCol'
+import Image from 'next/image'
 
 function Logo() {
   return (
     <CenterFlexCol>
-      <div className='h-12 w-8 bg-blue-600 mt-10 border-[3px] border-sky-200'>
-        <div className='bg-white h-2 w-[2px]'>
-
-        </div>
-        <div className='bg-white h-1 w-1 rounded-full mt-3 ms-5'>
-
-        </div>
-        <div className='bg-white h-2 w-[2px] mt-3'>
-
-        </div>
-      </div>
-      <div className='mt-1 mb-6 text-sm md:text-base font-mono font-bold text-blue-600'>
-        BlueDoor
+      <Image className='mt-4' src={logo} alt='آگهی متاورسی' width={80} />
+      <div className='mt-1 mb-6 text-base md:text-lg font-bold text-gray-400'>
+        آگهی
       </div>
     </CenterFlexCol>
   )

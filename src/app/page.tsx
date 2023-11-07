@@ -1,4 +1,5 @@
 import CenterFlexCol from "@/components/centerFlexCol";
+import CologoContainer from "@/components/coLogoContainer";
 import Logo from "@/components/firstPageLogo";
 import SearchCity from "@/components/searchCity";
 import ShortcutContainer from "@/components/shortcutContainer";
@@ -11,6 +12,7 @@ export default function Home() {
       <ShortcutContainer/>
       <Slogan/>
       <SearchCity />
+      <CologoContainer />
     </CenterFlexCol>
   )
 }

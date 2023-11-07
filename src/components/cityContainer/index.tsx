@@ -3,7 +3,7 @@ import CityShortcut from '../cityShortcut'
 
 function CityContainer() {
   return (
-    <div className='w-[90%] md:w-[80%] lg:w-[70%] mt-4 flex justify-center items-center flex-wrap text-gray-500 border-b border-gray-300'>
+    <div className='w-[90%] md:w-[80%] lg:w-[70%] mt-4 pb-4 flex justify-center items-center flex-wrap text-gray-500 border-b border-gray-300'>
         <CityShortcut city={'تهران'} />
         <CityShortcut city={'مشهد'} />
         <CityShortcut city={'اصفهان'} />
