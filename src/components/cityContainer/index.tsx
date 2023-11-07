@@ -14,6 +14,8 @@ function CityContainer() {
         <CityShortcut city={'رشت'} />
         <CityShortcut city={'تبریز'} />
         <CityShortcut city={'بندر عباس'} />
+        <CityShortcut city={'ساری'} />
+        <CityShortcut city={'کرج'} />
     </div>
   )
 }
